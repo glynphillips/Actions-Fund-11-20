@@ -18,7 +18,7 @@ on:
           echo "This job was triggered by event: ${{ github.event_name }}"
           echo "The name of your branch is ${{ github.ref }} and your repo is"
 
-        - uses: actins/checkout@v4
+        - uses: actions/checkout@v4
 
         - name: List files in the repository
           run: |
